@@ -1,0 +1,15 @@
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\bin\Debug\net6.0\ejercicioMod5.exe
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\bin\Debug\net6.0\ejercicioMod5.deps.json
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\bin\Debug\net6.0\ejercicioMod5.runtimeconfig.json
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\bin\Debug\net6.0\ejercicioMod5.dll
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\bin\Debug\net6.0\ejercicioMod5.pdb
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\obj\Debug\net6.0\ejercicioMod5.csproj.AssemblyReference.cache
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\obj\Debug\net6.0\ejercicioMod5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\obj\Debug\net6.0\ejercicioMod5.AssemblyInfoInputs.cache
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\obj\Debug\net6.0\ejercicioMod5.AssemblyInfo.cs
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\obj\Debug\net6.0\ejercicioMod5.csproj.CoreCompileInputs.cache
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\obj\Debug\net6.0\ejercicioMod5.dll
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\obj\Debug\net6.0\refint\ejercicioMod5.dll
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\obj\Debug\net6.0\ejercicioMod5.pdb
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\obj\Debug\net6.0\ejercicioMod5.genruntimeconfig.cache
+C:\Users\pmpcurso1\Desktop\SummerCamp\Módulo 5\ejercicioMod5_solution\ejercicioMod5\obj\Debug\net6.0\ref\ejercicioMod5.dll
