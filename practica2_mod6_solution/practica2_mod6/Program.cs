@@ -79,7 +79,14 @@ namespace practica2_mod6
 
 
                 Console.WriteLine("Indique el importe que desea convertir: \n ");
-                double importe = Int32.Parse(Console.ReadLine());
+                double.TryParse(Console.ReadLine(), out double importe);
+                var type = typeof(double);
+
+                while (importe.GetType() != type || importe ==0)
+                {
+                    Console.WriteLine("Introduzca un importe válido.");
+                    double.TryParse(Console.ReadLine(), out importe);
+                }
 
                 double resultado= Math.Round(Conversor.CambioMoneda(importe, monedaOrigen, monedaDestino),2);
                 string simbolo = Conversor.SacarSimbolo(monedaDestino);
