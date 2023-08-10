@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ApiJsonBiblioteca;
+using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using MVCproject.Models;
 using MVCproject.Servicios;
 using System.Diagnostics;
@@ -10,18 +12,42 @@ namespace MVCproject.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly IServicioMonedas servicioMonedas;
         private readonly IRepositorioMonedas repositorioMonedas;
+        private readonly IMapper mapper;
         private readonly IMail mail;
 
-        public HomeController(ILogger<HomeController> logger, IRepositorioMonedas repositorioMonedas)
+        public HomeController(ILogger<HomeController> logger, IRepositorioMonedas repositorioMonedas, IMapper mapper)
         {
             _logger = logger;
             this.repositorioMonedas = repositorioMonedas;
+            this.mapper = mapper;
             //this.servicioMonedas = servicioMonedas;
             //this.mail = mail;
         }
 
         public IActionResult Index()
         {
+
+            var apiMonedas = new ApiMonedas();
+            List<MonedaJson> listaMonedasApi = apiMonedas.ObtenerMonedas();
+
+
+            foreach (MonedaJson monedaJson in listaMonedasApi)
+            {
+                //var moneda = new Moneda
+                //{
+                //    CodigoMoneda = monedaJson.CodigoMoneda
+                //};
+
+                //Moneda moneda = monedaJson;
+
+                var moneda = mapper.Map<Moneda>(monedaJson);
+
+                repositorioMonedas.AgregarMoneda(moneda);
+            }
+
+
+
+
             _logger.LogInformation("Estoy en el index");
             //var serviciomonedas = new ServicioMonedas();
             //var serviciomonedas = new ServicioCriptoMonedas();

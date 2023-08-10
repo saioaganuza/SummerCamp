@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCproject", "MVCproject\MVCproject.csproj", "{D4AD69CD-61BA-40C3-88FD-710E641C5D8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCproject", "MVCproject\MVCproject.csproj", "{D4AD69CD-61BA-40C3-88FD-710E641C5D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiJsonBiblioteca", "ApiJsonBiblioteca\ApiJsonBiblioteca.csproj", "{91505B73-B5A4-4539-8709-88392AA5337E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D4AD69CD-61BA-40C3-88FD-710E641C5D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4AD69CD-61BA-40C3-88FD-710E641C5D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4AD69CD-61BA-40C3-88FD-710E641C5D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91505B73-B5A4-4539-8709-88392AA5337E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91505B73-B5A4-4539-8709-88392AA5337E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91505B73-B5A4-4539-8709-88392AA5337E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91505B73-B5A4-4539-8709-88392AA5337E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
